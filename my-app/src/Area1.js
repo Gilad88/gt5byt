@@ -2,7 +2,7 @@ import React from 'react'
 
 class Area1 extends React.Component{
     render(){
-       return<div className="box">
+       return<div className="box" id="ar1">
         <h3>קצת עלי</h3>
        <p className="bold">
            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם.

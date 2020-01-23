@@ -3,10 +3,10 @@ import React from 'react'
 class Circle extends React.Component{
     render(){
        return <div className="Circle">
-           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"></link>
-           <a href="tel:555-555-5555">
-                    <li class="li1"><i class='fas fa-mobile-alt'></i></li></a>
-                    <span>התקשר אליי</span>
+           
+           <a href={this.props.link}>
+                    <li className="li1"><i class={this.props.classnam}></i></li></a>
+                    <span>{this.props.info} </span>
        </div>
     }
 }

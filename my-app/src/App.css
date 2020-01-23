@@ -9,6 +9,7 @@ font-family: 'Assistant', sans-serif;
   background-color: white;
   width: 98%;
   margin: auto;
+  border-radius: 10px;
 }
 h1{
   margin: 0;
@@ -17,6 +18,7 @@ h1{
 }
 h2{
   text-align: center;
+  margin-bottom: 10px;
 }
 h3 {
   padding: 10px;
@@ -26,10 +28,20 @@ h3 {
 .bold{
   font-weight: bold;
 }
+p {
+  padding: 10px;
+  margin: auto;
+  padding-bottom: 2px;
+}
 .headrImg{
   height: 150px;
     width: 100%;
     box-shadow: 2px 2px 11px 3px #0000008c;
+}
+@media screen and (min-width: 768px){
+  .headrImg{
+      height: 200px;
+  }
 }
 .headrLogo{
   margin: auto;
@@ -44,6 +56,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80px;
 }
 a:link{
   text-decoration: none;
@@ -73,6 +86,10 @@ li {
   margin-bottom: 10px;
   transition-duration: 0.4s;
 }
+li:hover{
+  color: white;
+  background-color: rgb(50, 129, 248); 
+}
 span {
   display: flex;
   justify-content: center;
@@ -91,6 +108,12 @@ span {
     align-items: center;
     margin-bottom: 10px;
 }
+@media screen and (min-width: 768px){
+  .circle{
+      width: 90px;
+      height: 90px;
+  }
+}
 .square{
   width: 60px;
     height: 60px;
@@ -102,8 +125,21 @@ span {
     align-items: center;
     margin-bottom: 10px;
 }
+@media screen and (min-width: 768px){
+  .square{
+      width: 90px;
+      height: 90px;
+  }
+}
 .service{
   display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px){
+  #service{
+     display: flex;
+     justify-content: space-between;
+  }
 }
 input[type=text] {
   width: 100%;
@@ -114,7 +150,7 @@ input[type=text] {
   border-radius: 5px;
   font-family: 'Assistant', sans-serif;
 }
-#ns{
+.ns{
   padding-left: 10px;
 }
 #ab{
@@ -147,4 +183,25 @@ input[type=submit] {
   color: white;
   width: 82px;
   height: 35px;
+}
+@media screen and (min-width: 768px){
+  #ar{
+     display: flex;
+     margin: auto;
+     width: 99%;
+     margin-bottom: 10px;
+     margin-left: 3px;
+  }
+}
+@media screen and (min-width: 768px){
+  #ar1{
+     width: 29%;
+     margin-top: 10px;
+     margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 768px){
+  #ar2{
+     width: 70%;
+  }
 }

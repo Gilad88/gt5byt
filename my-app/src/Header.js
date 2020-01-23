@@ -12,8 +12,10 @@ class Header extends React.Component{
            <div id="centerlog">
            <HeaderLogo />
            </div>
+           <div className="box">
            <BigTitle />
            <SmallTitle />
+           </div>
        </header>
     }
 }

@@ -6,10 +6,10 @@ class Conect extends React.Component{
        <h3>צור קשר</h3>
        <form>
            <div id="ab">
-           <section id="ns">
+           <section className="ns">
            <input required="" placeholder="השם המלא שלך" type="text"></input>
            </section>
-           <section id="ns">
+           <section className="ns">
            <input required="" placeholder="המספר טלפון שלך" type="text"></input>
            </section>
            </div>
